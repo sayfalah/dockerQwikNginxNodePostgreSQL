@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone repo') {
             steps {
-                git url: https://github.com/sayfalah/dockerQwikNginxNodePostgreSQL.git , branch: 'main'
+                git url: 'https://github.com/sayfalah/dockerQwikNginxNodePostgreSQL.git ', branch: 'main'
             }
         }
 
