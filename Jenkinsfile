@@ -10,7 +10,7 @@ pipeline {
    stage('Build frontend') {
             steps {
                 dir('NodeBackend') {
-                    sh '/home/sayfalah/.nvm/versions/node/v16.20.1/bin/npm install'
+                    sh 'bin/npm install'
                    
                 }
             }
